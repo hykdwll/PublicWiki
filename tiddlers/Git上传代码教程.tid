@@ -1,0 +1,12 @@
+created: 20230626095349961
+creator: 阳仔
+modified: 20230626095535304
+modifier: 阳仔
+tags: index Git
+title: Git上传代码教程
+
+git clone
+cd 
+git add .
+git commit -m "2023.1.6"
+git push -u origin main
