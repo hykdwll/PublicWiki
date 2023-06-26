@@ -1,6 +1,6 @@
 created: 20230626081545436
 creator: 阳仔
-modified: 20230626092332807
+modified: 20230626092929846
 modifier: 阳仔
 tags: 我的笔记
 title: html如何实现网页跳转
@@ -24,3 +24,20 @@ type: text/vnd.tiddlywiki
 `<meta http-equiv="refresh"` `content="5;url=index.html"> `
 
 `</head>`
+
+2、a标签直接跳转
+
+<<<
+<a href="http://baidu.com">百度一下</a>
+<<<
+
+
+3、通过javascript中实现跳转
+// 直接跳转
+
+window.location.href='index.html';
+
+// 定时跳转
+
+setTimeout("javascript:location.href='index.html'", 5000);
+
