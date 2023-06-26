@@ -4,6 +4,7 @@ modified: 20230626081609104
 modifier: 阳仔
 tags: 
 title: html如何实现网页跳转
+wysiwyg: yes
 
 方法：
 1、使用meta标签，语法“<meta url=网页地址>”；
