@@ -1,12 +1,31 @@
 created: 20230626081545436
 creator: 阳仔
-modified: 20230626082433452
+modified: 20230626082531943
 modifier: 阳仔
 tags: 
 title: html如何实现网页跳转
 wysiwyg: yes
 
 方法：
-1、使用meta标签，语法“<meta url="网页地址"></meta>”；
+1、使用meta标签，语法“</meta></meta>”；
 2、使用a标签，语法“<a href="网页地址">”；
 3、使用javascript跳转，语法“window.location.href='网页地址'”。</a>
+
+''1、html中使用meta中跳转，通过meta可以设置跳转时间和页面''
+
+`<head>`
+
+`<!--只是刷新不跳转到其他页面 -->`
+
+`<meta http-equiv="refresh"` `content="5">`
+
+`<!--定时转到其他页面 -->`
+
+`<meta http-equiv="refresh"` `content="5;url=index.html"> `
+
+`</head>`
+
+
+
+
+
