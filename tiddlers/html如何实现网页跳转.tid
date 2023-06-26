@@ -1,8 +1,8 @@
 created: 20230626081545436
 creator: 阳仔
-modified: 20230626082557512
+modified: 20230626083023557
 modifier: 阳仔
-tags: 
+tags: $:/tags/Stylesheet
 title: html如何实现网页跳转
 wysiwyg: yes
 
@@ -24,8 +24,3 @@ wysiwyg: yes
 `<meta http-equiv="refresh"` `content="5;url=index.html"> `
 
 `</head>`
-
-
-
-
-
