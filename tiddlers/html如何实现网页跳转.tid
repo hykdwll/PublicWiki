@@ -1,3 +1,11 @@
+created: 20230626081545436
+creator: 阳仔
+modified: 20230626084421705
+modifier: 阳仔
+tags: 
+title: html如何实现网页跳转
+type: text/vnd.tiddlywiki
+
 方法：
 1、使用meta标签，语法“</meta></meta>”；
 2、使用a标签，语法“<a href="网页地址">”；
