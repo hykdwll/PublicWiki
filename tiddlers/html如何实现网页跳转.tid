@@ -1,0 +1,11 @@
+created: 20230626081545436
+creator: 阳仔
+modified: 20230626081609104
+modifier: 阳仔
+tags: 
+title: html如何实现网页跳转
+
+方法：
+1、使用meta标签，语法“<meta url=网页地址>”；
+2、使用a标签，语法“<a href="网页地址">”；
+3、使用javascript跳转，语法“window.location.href='网页地址'”。
