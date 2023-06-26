@@ -1,0 +1,53 @@
+created: 20230626125652699
+creator: TidGi User
+modified: 20230626125750474
+modifier: TidGi User
+tags: Index
+title: frp信息
+
+[common]
+server_addr = frp.freefrp.net
+server_port = 7000
+token = freefrp.net
+
+[nas_myadmin.eryang.top_http]
+type = http
+local_ip = 127.0.0.1
+local_port = 80
+custom_domains = myadmin.eryang.top
+
+[nas_nav.eryang.top_http]
+type = http
+local_ip = 127.0.0.1
+local_port = 80
+custom_domains = nav.eryang.top
+
+[nas_pan.eryang.top_http]
+type = http
+local_ip = 127.0.0.1
+local_port = 80
+custom_domains = pan.eryang.top
+
+[nas_pan.eryang.top_https]
+type = https
+local_ip = 127.0.0.1
+local_port = 443
+custom_domains = pan.eryang.top
+
+[nas_link.eryang.top_http]
+type = http
+local_ip = 127.0.0.1
+local_port = 80
+custom_domains = link.eryang.top
+
+[nas_yun.eryang.top_http]
+type = http
+local_ip = 127.0.0.1
+local_port = 80
+custom_domains = yun.eryang.top
+
+[nas_miwifi.eryang.top_http]
+type = http
+local_ip = 192.168.31.1
+local_port = 80
+custom_domains = miwifi.eryang.top
